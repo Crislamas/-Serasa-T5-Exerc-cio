@@ -1,10 +1,11 @@
 body {
-    text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    width: 940px;
-    margin-left: auto;
+    max-width: 940px;
+    width: 80%;
+    margin-left:auto;
     margin-right: auto;
+    font-size: 16px;
+    line-height: 1.5;
 
 }
 
@@ -40,12 +41,11 @@ figure {
     font-size: 14px;
     background-color: whitesmoke;
     padding: 15px;
-    margin: 30px;
+    margin: 35px;
     max-width: 100%;
     text-align: center;
     
 
-    
     }
     
    
@@ -56,26 +56,26 @@ figure img {
 }
 
 
-.imagem1 {
+.figure-1 {
     max-width: 550px;
     max-height: 550px;
-    
+    margin-left:auto;
+    margin-right: auto;
 }
     
-
-
-.imagem2 {
-    
-    max-height: 275px;
-    max-width: 275px;
-    
-    
+    .figure-2 {
+        max-height: 275px;
+        max-width: 275px;
+        float: right;
 }
 
 
 figcaption {
-    padding: 10px;
-    text-align: center;
+    margin-top: 10px;
+
     
 }
 
+p {
+    text-align: justify;
+}
